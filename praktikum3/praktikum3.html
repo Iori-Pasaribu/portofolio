@@ -1,0 +1,124 @@
+<html>
+<head>
+  <title>Praktikum 3</title>
+</head>
+<body>
+  <a href="https://satyaterrabhinneka.ac.id/">
+    <img src="https://satyaterrabhinneka.ac.id/assets/img/logo-universitas-satya-terra-bhinneka.png" alt="Universitas Satya Terra Bhinneka Logo">
+  </a>
+  <h2>Menu Navigasi</h2>
+  <u1 style="list-style-type:disc">
+    <a href="https://satyaterrabhinneka.ac.id/"><li>Beranda</li></a>
+    <a href="https://satyaterrabhinneka.ac.id/profil/visi-misi/"><li>Tentang Kami</li></a>
+    <a href="https://satyaterrabhinneka.ac.id/kontak/"><li>Hubungi Kami</li></a>
+  </u1>
+  <h2>Formulir Pengguna</h2>
+  <form action="#" method="POST">
+    <table>
+      <tr>
+        <td>
+          <label for="fname">Nama:</label>
+        </td>
+        <!-- <td>kolom 2 baris 1 </td> -->
+        <!-- <td>kolom 3 baris 1 </td> -->
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="nama" name="nama">
+        </td>
+        <!-- <td>kolom 2 baris 2 </td> -->
+        <!-- <td>kolom 3 baris 2 </td> -->
+      </tr>
+      <tr>
+        <td>
+          <label for="email">Email:</label>
+        </td>
+        <td>
+          <label>Jenis Kelamin:</label>
+        </td>
+        <td>
+          <label for="usia">Usia:</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="email" id="email" name="email">
+        </td>
+        <td>
+          <input type="radio" id="laki" name="cowo">
+          <label for="laki">Laki-Laki</label>
+        </td>
+        <td>
+          <input type="number" id="usia" name="usia" min="1" max="100">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="sandi">Password:</label>
+        </td>
+        <td>
+          <input type="radio" id="Perempuan" name="cewek">
+          <label for="Perempuan">Perempuan</label>
+        </td>
+        <td>
+          <label for="gambar">Pilih Gambar:</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="password" id="password" name="password">
+        </td>
+        <td>
+          <!-- <td>tumbal</td> -->
+        </td>
+        <td>
+          <input type="file" id="gambar" name="gambar">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Alamat">Alamat:</label>
+        </td>
+        <td>
+          <label>Hobi:</label>
+        </td>
+        <td>
+          <!-- <td>tumbal</td> -->
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3">
+          <textarea name="contest_entry" placeholder="" rows="5" cols="40"></textarea>
+        </td>
+        <td>
+          <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+          <label for="olahraga">Olahraga</label>
+        </td>
+        <td>
+          <label for="tanggal">Tanggal Lahir:</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="musik" name="hobi" value="Musik">
+          <label for="musik">Musik</label>
+        </td>
+        <td>
+          <input type="date" id="tanggal" name="tanggal_lahir">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+          <label for="membaca">Membaca</label>
+          </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

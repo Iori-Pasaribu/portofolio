@@ -1,0 +1,31 @@
+.jumbotron {
+  padding-top: 100px;
+  background-color: #e6e20a;
+}
+.img-thumbnail {
+  background-color: rgb(172, 235, 240);
+  border: 1px solid #9fd9db;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+#galeri {
+  background-color: #e6e20a;
+}
+.d-block {
+  border-radius: 20px;
+}
+.porto {
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 2px 2px 4px black;
+}
+.my {
+  font-style: oblique;
+  font-weight: bold;
+}
+.ucapan {
+  background-color: #e6e20a;
+  margin-top: 100px;
+}
+section {
+  padding-top: 60px;
+}
